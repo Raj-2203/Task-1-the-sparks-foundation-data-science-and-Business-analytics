@@ -9,9 +9,11 @@ Model involved in this is simple linear regression model as it involves just two
 
 ### 1) About the dataset 
 data.frame:	25 obs. of  2 variables:
+
  $ Hours : num  2.5 5.1 3.2 8.5 3.5 1.5 9.2 5.5 8.3 2.7 ...
+
  $ Scores: int  21 47 27 75 30 20 88 60 81 25 ...
-25 2
+ 
 ####  dataset has 25 observations and 2 variables which are hours & scores scores are in the form of integer and hours are in the form of numeric. 
 #### also there are no missing values in dataset
 
@@ -38,4 +40,4 @@ Clearly from above graph we can see that observed and fitted values of the score
 
 ### 5) Prediction of Score 
 Using simple linear regression model Y = 2.4837 + 9.7758*X we can easily predict that ; 
-If a student studies for 9.25 hours per day then he can approximately score 93 marks(marks given as integer) in the examination
+If a student studies for __9.25 hours__ per day then he can approximately score __93 marks__(marks given as integer) in the examination
